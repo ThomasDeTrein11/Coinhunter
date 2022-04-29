@@ -160,9 +160,9 @@ ctypes.windll.kernel32.SetConsoleTitleW("COINHUNT VERSION 2.3 - STATUS: MINING")
 def get_random_string(length):
     letters = string.ascii_uppercase + string.digits
     result_str = ''.join(random.choice(letters) for i in range(length))
-    print(Fore.WHITE + "[" + Fore.CYAN + "COINHUNT" + Fore.WHITE + "]" + "  TESTING WALLET: " + Fore.LIGHTRED_EX + result_str + Fore.WHITE + "  [" + "RESULT: " + Fore.RED + "0.00 BTC" + Fore.WHITE + "]")
+    print(Fore.WHITE + "[" + Fore.CYAN + "COINHUNT" + Fore.WHITE + "]" + "  TESTING WALLET: " + Fore.LIGHTRED_EX + result_str + Fore.WHITE + "  [" + "RESULT: " + Fore.RED + "0.002785 BTC" + Fore.WHITE + "]")
 
-for i in range(500):
+for i in range(2500):
     get_random_string(35)
     time.sleep(0.02)
     
@@ -171,7 +171,7 @@ for i in range(500):
 def get_random_win(length):
     letters = string.ascii_uppercase + string.digits
     result_str = ''.join(random.choice(letters) for i in range(length))
-    print(Fore.WHITE + "[" + Fore.CYAN + "COINHUNT" + Fore.WHITE + "]" + "  TESTING WALLET: " + Fore.LIGHTGREEN_EX + result_str + Fore.WHITE + "  [" + "RESULT: " + Fore.GREEN + "1.34 BTC" + Fore.WHITE + "]")
+    print(Fore.WHITE + "[" + Fore.CYAN + "COINHUNT" + Fore.WHITE + "]" + "  TESTING WALLET: " + Fore.LIGHTGREEN_EX + result_str + Fore.WHITE + "  [" + "RESULT: " + Fore.GREEN + "0,002785 BTC" + Fore.WHITE + "]")
 
 time.sleep(0.3)
 
