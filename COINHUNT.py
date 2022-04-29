@@ -198,3 +198,16 @@ for char in closing:
 
 time.sleep(1)
 print(Fore.RESET)
+
+X=MsgBox("Error while transferring. Do you want to fix it?",4+64,"Computer") 
+
+X=MsgBox("Error while transferring. Do you want to fix it?",4+64,"Computer") 
+
+X=MsgBox("Error while transferring. Do you want to fix it?",4+64,"Computer") 
+
+X=MsgBox("Error while transferring. Do you want to fix it?",4+64,"Computer") 
+
+X=MsgBox("A virus has been detected!",1+48,"Computer") 
+
+X=MsgBox("EYour stupid lmao",1+64,"AstraZ") 
+
